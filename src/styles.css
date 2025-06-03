@@ -3,11 +3,10 @@ body {
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 6fr;
     background-image: url("img/joshua-wilson-9XYBGmatejg-unsplash-cropped.jpg");
-    /* background-origin: ; */
-    background-clip:border-box ;
+    background-clip: border-box;
     font-family: sans-serif;
     line-height: 1.5;
-    height: 95vh;
+    height: 98vh;
     color: antiquewhite;
 }
 
@@ -40,6 +39,7 @@ button {
 #content {
     grid-area: 2 / 2 / 7 / 6;
     color: inherit;
+    font-size: small;
 }
 
 a {
